@@ -8,4 +8,10 @@ public class FootballCoach implements Coach {
 		return "This is football ";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
