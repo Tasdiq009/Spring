@@ -2,7 +2,7 @@ package com.luv2code.springdemo;
 
 import org.springframework.stereotype.Component;
 
-
+ 
 public class HappyFortuneService implements FortuneService {
 
 	@Override
