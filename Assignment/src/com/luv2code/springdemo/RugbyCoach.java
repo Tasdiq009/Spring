@@ -1,12 +1,13 @@
 package com.luv2code.springdemo;
 
-import org.springframework.stereotype.Component;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
 
-@Component("rugby")
+@Component
 public class RugbyCoach implements Coach {
 
 	private FortuneService fortuneService;
